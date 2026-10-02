@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"tsc --noEmit && node main.ts",
+    "build":"tsc"
+  }
+}
